@@ -139,12 +139,11 @@ PRODUCT_PACKAGES += \
     LineageSDKOverlaySunstone \
     LineageSettingsOverlaySunstone \
     LineageSettingsProviderOverlaySunstone \
-    MssiFrameworkOverlay \
-    MssiNetworkStackOverlay \
-    MssiWifiOverlay \
     NcmTetheringOverlay \
     SettingsProviderOverlaySunstone \
     SystemUIOverlaySunstone
+
+$(call inherit-product, hardware/mediatek/overlay/mssi.mk)
 
 # Pen
 PRODUCT_PACKAGES += \

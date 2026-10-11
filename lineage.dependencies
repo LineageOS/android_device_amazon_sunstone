@@ -1,0 +1,18 @@
+[
+  {
+    "repository": "android_device_mediatek_sepolicy_vndr",
+    "target_path": "device/mediatek/sepolicy_vndr"
+  },
+  {
+    "repository": "android_hardware_amazon",
+    "target_path": "hardware/amazon"
+  },
+  {
+    "repository": "android_hardware_mediatek",
+    "target_path": "hardware/mediatek"
+  },
+  {
+    "repository": "android_kernel_amazon_mt8188",
+    "target_path": "kernel/amazon/mt8188"
+  }
+]

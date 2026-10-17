@@ -61,8 +61,8 @@ blob_fixups: blob_fixups_user_type = {
      'vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so',
      'vendor/lib64/libmtkcam_hal_android_app_cbadaptor.so'): blob_fixup()
         .replace_needed('libutils.so', 'libutils-v32.so'),
-    'vendor/lib/libMtkOmxVdecEx.so': blob_fixup()
-        .add_needed('libui_shim.so'),
+    ('vendor/lib/libMtkOmxVdecEx.so', 'vendor/lib/libMtkOmxVenc.so'): blob_fixup()
+        .replace_needed('libui.so', 'libui-v30.so'),
     ('vendor/lib/libh264enc_sa.ca7.so', 'vendor/lib/libmp4enc_sa.ca7.so', 'vendor/lib/libthha.so',
      'vendor/lib/libvc1dec_sa.ca7.so', 'vendor/lib/libvcodec_oal.so', 'vendor/lib/libvp8dec_sa.ca7.so',
      'vendor/lib/libvp9dec_sa.ca7.so'): blob_fixup()
@@ -75,6 +75,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('__gnu_Unwind_Find_exidx'),
     ('vendor/lib/libnvram.so', 'vendor/lib64/libnvram.so'): blob_fixup()
         .add_needed('libbase_shim.so'),
+    'vendor/lib/libui-v30.so': blob_fixup()
+        .replace_needed('android.hardware.graphics.common-V1-ndk_platform.so', 'android.hardware.graphics.common-V7-ndk.so'),
     'vendor/lib/libwvhidl.so': blob_fixup()
         .add_needed('libcrypto_shim.so'),
     'vendor/lib64/hw/hwcomposer.mt8188.so': blob_fixup()

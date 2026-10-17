@@ -955,6 +955,7 @@ vendor/lib64/libpuresoftkeymasterdevice.so:vendor/lib64/libpuresoftkeymasterdevi
 vendor/lib64/libsoft_attestation_cert.so:vendor/lib64/libsoft_attestation_cert-v30.so;FIX_SONAME
 
 # Media
+system/apex/com.android.vndk.current/lib/libui.so:vendor/lib/libui-v30.so;FIX_SONAME
 vendor/bin/vpud
 vendor/etc/init/android.hardware.media.omx@1.0-mtk-service.rc
 vendor/etc/init/vpud.rc

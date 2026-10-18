@@ -97,7 +97,12 @@ endif
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.mediatek \
-    android.hardware.health-service.mediatek-recovery
+    android.hardware.health-service.mediatek-recovery \
+    vendor.lineage.health-service.default
+
+$(call soong_config_set,lineage_health,charging_control_charging_path,/proc/mtk_battery_cmd/current_cmd)
+$(call soong_config_set,lineage_health,charging_control_charging_enabled,0 0)
+$(call soong_config_set,lineage_health,charging_control_charging_disabled,0 1)
 
 # ION
 $(call soong_config_set_bool,libion,legacy_impl,true)

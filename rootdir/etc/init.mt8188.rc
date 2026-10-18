@@ -161,6 +161,9 @@ on property:vendor.all.modules.ready=1
     # Camera
     start camerahalserver
 
+    # Health
+    chown system system /proc/mtk_battery_cmd/current_cmd
+
     # Sensors
     chown system system /sys/class/sensor/m_acc_misc/accactive
     chown system system /sys/class/sensor/m_acc_misc/accbatch

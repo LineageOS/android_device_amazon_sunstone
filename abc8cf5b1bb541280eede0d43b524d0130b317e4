@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "963805ad_dc68d89d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32620
+      },
+      "writtenOn": "2026-10-19T23:34:52Z",
+      "side": 1,
+      "message": "On hold until https://review.lineageos.org/c/LineageOS/android_device_mediatek_sepolicy_vndr/+/509345 gets merged.",
+      "revId": "abc8cf5b1bb541280eede0d43b524d0130b317e4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}

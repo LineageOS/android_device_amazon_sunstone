@@ -17,15 +17,15 @@ PRODUCT_NAME := lineage_sunstone
 PRODUCT_DEVICE := sunstone
 PRODUCT_MANUFACTURER := Amazon
 PRODUCT_BRAND := Amazon
-PRODUCT_MODEL := Fire Max 11
+PRODUCT_MODEL := KFSNWI
 PRODUCT_CHARACTERISTICS := tablet
 
 PRODUCT_GMS_CLIENTID_BASE := android-amazon
 
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.product.manufacturer=Amzn
+    ro.product.manufacturer=AMAZO
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="full_p11-user 11 RP1A.200720.011 60 release-keys" \
-    BuildFingerprint=Lenovo/TB-J616F/TB-J616F:11/RP1A.200720.011/TB-J616F_S000031_210723_ROW:user/release-keys \
+    BuildDesc="turquoise-user 16 SL16SHIP2003 1344N amz-p,release-keys" \
+    BuildFingerprint=Amazon/turquoise/turquoise:16/SL16SHIP2003/1344N:user/amz-p,release-keys \
     DeviceProduct=sunstone

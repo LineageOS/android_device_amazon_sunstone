@@ -142,6 +142,7 @@ PRODUCT_PACKAGES += \
     MssiFrameworkOverlay \
     MssiNetworkStackOverlay \
     MssiWifiOverlay \
+    SettingsProviderOverlaySunstone \
     SystemUIOverlaySunstone
 
 # Pen

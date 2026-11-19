@@ -14,7 +14,6 @@ genfscon sysfs /devices/platform/11280000.i2c/i2c-0/0-0038/gesture_wakeup       
 genfscon sysfs /devices/platform/11e00000.i2c/i2c-1/1-005b/rt9467-chg/power_supply                                                  u:object_r:sysfs_batteryinfo:s0
 
 # Proc
-genfscon proc /idme                                                                                                                 u:object_r:vendor_proc_idme:s0
 genfscon proc /sys/vm/min_free_kbytes                                                                                               u:object_r:proc_min_free_kbytes:s0
 
 # Wakeup

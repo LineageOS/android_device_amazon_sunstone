@@ -1,6 +1,5 @@
 # Proc
 type proc_min_free_kbytes, fs_type, proc_type;
-type vendor_proc_idme, fs_type, proc_type;
 
 # Sysfs
 type sysfs_tap_to_wake, fs_type, sysfs_type;

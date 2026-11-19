@@ -17,12 +17,6 @@ prebuilt_etc {
 }
 
 sh_binary {
-    name: "init.btmac.sh",
-    src: "bin/init.btmac.sh",
-    vendor: true,
-}
-
-sh_binary {
     name: "init.insmod.sh",
     src: "bin/init.insmod.sh",
     vendor: true,

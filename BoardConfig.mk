@@ -119,6 +119,7 @@ TARGET_RECOVERY_PIXEL_FORMAT := BGRA_8888
 # SEPolicy
 include device/lineage/sepolicy/libion/sepolicy.mk
 include device/mediatek/sepolicy_vndr/SEPolicy.mk
+include hardware/amazon/sepolicy/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot

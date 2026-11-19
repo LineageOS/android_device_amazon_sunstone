@@ -1,10 +1,5 @@
-# Binaries
-/vendor/bin/hw/fireos\.hardware\.audio\.service                                     u:object_r:hal_audio_default_exec:s0
-/vendor/bin/init\.btmac\.sh                                                         u:object_r:vendor_init_btmac_exec:s0
-
 # Block devices
 /dev/block/by-name/nvdata_persist                                                   u:object_r:nvdata_persist_block_device:s0
 
 # Data
-/data/vendor/bluetooth(/.*)?                                                        u:object_r:bt_data_file:s0
 /data/vendor/gf_data(/.*)?                                                          u:object_r:fingerprint_vendor_data_file:s0

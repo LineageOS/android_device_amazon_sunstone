@@ -1,3 +1,0 @@
-r_dir_file(hal_audio_default, vendor_proc_idme)
-
-dontaudit hal_audio_default { audio_prop default_prop }:file r_file_perms;

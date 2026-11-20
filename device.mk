@@ -104,6 +104,10 @@ $(call soong_config_set,lineage_health,charging_control_charging_path,/proc/mtk_
 $(call soong_config_set,lineage_health,charging_control_charging_enabled,0 0)
 $(call soong_config_set,lineage_health,charging_control_charging_disabled,0 1)
 
+# IDME
+PRODUCT_PACKAGES += \
+    fireos.hardware.idme@1.1-service
+
 # ION
 $(call soong_config_set_bool,libion,legacy_impl,true)
 

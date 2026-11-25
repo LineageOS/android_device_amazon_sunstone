@@ -10,12 +10,6 @@ prebuilt_etc {
     vendor_ramdisk_available: true,
 }
 
-prebuilt_etc {
-    name: "fstab.enableswap",
-    src: "etc/fstab.enableswap",
-    vendor: true,
-}
-
 sh_binary {
     name: "init.insmod.sh",
     src: "bin/init.insmod.sh",

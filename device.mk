@@ -176,7 +176,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.emmc \
     fstab.emmc.vendor_ramdisk \
-    fstab.enableswap \
     init.btmac.sh \
     init.insmod.sh \
     init.mt8188.rc \

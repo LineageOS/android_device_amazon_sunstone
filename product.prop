@@ -25,3 +25,8 @@ bluetooth.profile.vcp.controller.enabled=true
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# ZRAM
+mmd.zram.comp_algorithm=lz4
+mmd.zram.enabled=true
+mmd.zram.size=50%

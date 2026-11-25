@@ -141,7 +141,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 # VINTF
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
     hardware/amazon/vintf/device_framework_matrix.xml \
-    hardware/mediatek/vintf/mediatek_framework_compatibility_matrix_aidl.xml \
     hardware/mediatek/vintf/mediatek_framework_compatibility_matrix.xml
 
 # Wi-Fi
